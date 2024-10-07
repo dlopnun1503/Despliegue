@@ -14,5 +14,5 @@ Lista de jugadores españoles:
 [Amazon](https://www.amazon.es/)
 
 ### Código
-'usuario'
+`usuario`
 
