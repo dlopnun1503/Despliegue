@@ -29,3 +29,12 @@ Mientras que el registro NS define qué servidores DNS están autorizados para g
 
 ## dig -x 10.0.2.15
 El registro PTR en DNS se utiliza para realizar resoluciones inversas de DNS, es decir, convertir una dirección IP en un nombre de dominio. Este proceso es el inverso al típico en el que se convierte un nombre de dominio en una dirección IP
+
+## Capturas
+![Captura1](https://raw.githubusercontent.com/dlopnun1503/Despliegue/master/DNS/Actividades/Captura%20de%20pantalla%20(24).png)
+
+![Captura2](https://raw.githubusercontent.com/dlopnun1503/Despliegue/master/DNS/Actividades/Captura%20de%20pantalla%20(25).png)
+
+![Captura3](https://raw.githubusercontent.com/dlopnun1503/Despliegue/master/DNS/Actividades/Captura%20de%20pantalla%20(26).png)
+
+![Captura4](https://raw.githubusercontent.com/dlopnun1503/Despliegue/master/DNS/Actividades/Captura%20de%20pantalla%20(28).png)
