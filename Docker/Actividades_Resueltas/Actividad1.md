@@ -17,4 +17,4 @@
 
 
 # Resultado
-![Resultado](C:\Users\2DAW2425-10\Pictures\Screenshots\resultadoInstalacionDocker)
+![Resultado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Docker/resultadoInstalacionDocker.png)
