@@ -16,3 +16,6 @@ Verificar que está funcionando
 
 ### docker exec ubuntu cat /etc/os-release
 Ver el contenido del archivo /etc/os-release desde fuera del contenedor
+
+### Resultado
+![Resultado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Docker/ResultadoActividad3.png)

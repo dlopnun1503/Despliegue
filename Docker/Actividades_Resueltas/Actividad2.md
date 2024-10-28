@@ -39,4 +39,4 @@
 - docker images
 
 ## Resultado foto
-![Resultado]()
+![Resultado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Docker/Resultado%20Actividad2.png)
