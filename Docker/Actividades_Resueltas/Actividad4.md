@@ -20,4 +20,4 @@
 
 
 ## Resultado
-![Resultado]()
+![Resultado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Docker/Actividad4.png)
