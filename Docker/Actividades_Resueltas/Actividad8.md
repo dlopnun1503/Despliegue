@@ -11,7 +11,8 @@
 
 
 ## Razonamiento
-
+Usamos bind mounts para lograr persistencia de datos entre el sistema de archivos de la máquina anfitriona y los contenedores Docker. Esto significa que cualquier cambio que hagamos en los archivos de la carpeta saludo en la máquina anfitriona se reflejará de inmediato en ambos contenedores. 
+Podemos acceder a la misma página web en cada contenedor, pero a través de distintas rutas, lo cual nos permite probar cómo se mantiene el contenido constante en ambos contenedores.
 
 ## Resultado
-![Resultado]()
+![Resultado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Docker/Comandos%20Act8.png)
