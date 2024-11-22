@@ -38,7 +38,7 @@ COPY info.php /var/www/html/info.php
 
 
 ## Resultado
-![Resultado]()
+![Resultado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Docker/Act10.png)
 
 
 
