@@ -57,4 +57,4 @@ exit
 
 
 ## Resultado
-![Resultado]()
+![Resultado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Docker/Act9.png)
