@@ -59,10 +59,9 @@ volumes:
 docker-compose up -d
 
 
-
-
 ## Razonamiento
-
+El objetivo de la tarea es implementar un sistema de gestión de contenido basado en MediaWiki utilizando Docker Compose, asegurando que los datos sean persistentes tras reinicios. 
 
 ## Resultado
-![Resultado]()
+![Resultado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Docker/Fichero%20compose.png)
+![Resultado1](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Docker/Resultado%20compose.png)
