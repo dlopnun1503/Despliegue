@@ -15,7 +15,7 @@ chmod +x test.sh
 No debemos usar chmod 777 test.sh ya que otorgaríamos todos los privilegios a todo el mundo, esto no es buena práctica, sobre todo por temas de seguridad.
 
 ## Resultado 3.1 -> Vemos como muestra el mensaje del fichero test.sh
-![Resultado3.1]()
+![Resultado3.1](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/03-shell/3.1.png)
 
 
 # 3.2 Creating new users
@@ -29,7 +29,7 @@ passwd bob
 passwd smith
 
 ## Resultado 3.2
-![Resultado3.2]()
+![Resultado3.2](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/03-shell/3.2.png)
 
 
 # 3.3 Creating a shared executable script
@@ -57,7 +57,7 @@ chmod +x hello.sh
 ls -l /home/ncs/hello.sh
 
 ## Resultado 3.3
-![Resultado3.3]()
+![Resultado3.3](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/03-shell/3.3.png)
 
 
 # 3.4 Accessing files from different user accounts
@@ -82,7 +82,7 @@ chmod +x bob.sh
 ./bob.sh
 
 ## Resultado 3.4.A -> en esta captura no muestra el prompt  ya que he iniciado sesión con bob
-![Resultado3.4.A]()
+![Resultado3.4.A](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/03-shell/3.4.png)
 
 
 ## PARTE B
