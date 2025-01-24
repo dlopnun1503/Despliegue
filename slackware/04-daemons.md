@@ -11,11 +11,16 @@ ps aux --sort=-%cpu | head -n 11
 
 ## Explicación y descripción
 Una vez que tengas la lista de los 10 procesos más intensivos en uso de CPU, consulta sus nombres y búscalos para describirlos brevemente.
-Por ejemplo:
-- Proceso A (PID 1234): Navegador web, responsable de manejar las pestañas y procesos de interfaz de usuario.
-- Proceso B (PID 5678): Sistema de base de datos, gestionando múltiples conexiones y transacciones.
-- .....
-  
+- PID 1234: Navegador web, responsable de manejar las pestañas y procesos de interfaz de usuario.
+- PID 5678: Sistema de base de datos, gestionando múltiples conexiones y transacciones.
+- PID 91011: Se encarga de manejar solicitudes HTTP y entregar contenido web, como páginas HTML, imágenes, etc.
+- PID 1213: Aplicación Java que maneja aplicaciones o servidores de backend, como plataformas de mensajería, sistemas de procesamiento de pagos, o cualquier otro programa intensivo que corre sobre la JVM
+- PID 1415: El gestor de ventanas es responsable de manejar la interfaz de usuario en entornos gráficos.
+- PID 1617: Usado para reproducir videos o manejar procesos multimedia.
+- PID 1819: Los procesos relacionados con la seguridad escanean constantemente archivos y actividades del sistema.
+- PID 2021: Se utiliza para realizar resoluciones de nombres de dominio, y puede experimentar alta carga si está realizando consultas extensas de DNS o gestionando tráfico elevado.
+- PID 2223: Aplicaciones de análisis de datos o modelado predictivo a menudo requieren una gran cantidad de poder de procesamiento.
+- PID 2425: El gestor de actualizaciones verifica, descarga e instala actualizaciones.
 ## Resultado 4.1 
 ![Resultado4.1](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/04-daemons/4.1.png)
 
@@ -84,7 +89,7 @@ delete archivo.txt
 telnet localhost
 
 ## Resultado 4.4.1
-![Resultado4.4.1]()
+![Resultado4.4.1](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/04-daemons/put%20archivo.txt.png)
 
 
 ## 2. Deshabilitar FTP
@@ -100,7 +105,9 @@ sudo systemctl restart inetd
 ftp localhost
 
 ## Resultado 4.4.2
-![Resultado4.4.2]()
+![Resultado4.4.2](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/04-daemons/Error%20ftp.png)
+
+### En este caso encontramos el error 421 de servicio no disponible ya que hemos comentado la linea de ftp
 
 
 ## 3.¿Qué son SFTP y SSH? ¿Por qué no se recomienda usar Telnet?
