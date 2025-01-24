@@ -17,7 +17,7 @@ Por ejemplo:
 - .....
   
 ## Resultado 4.1 
-![Resultado4.1]()
+![Resultado4.1](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/04-daemons/4.1.png)
 
 
 
@@ -34,7 +34,7 @@ sudo nmap localhost
 - 443/tcp (https): Puerto utilizado para servir contenido web en conexiones seguras HTTPS
 
 ## Resultado 4.2
-![Resultado4.2]()
+![Resultado4.2](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/04-daemons/4.2.png)
 
 
 
@@ -44,10 +44,10 @@ sudo nmap localhost
 kill -l
 
 ## Tabla 4.3
-![Tabla4.3]()
+![Tabla4.3](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/04-daemons/tabla4.3.png)
 
 ## kill -l
-![comando]()
+![comando](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/04-daemons/kill%20-l.png)
 
 
 
