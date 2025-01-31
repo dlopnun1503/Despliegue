@@ -15,7 +15,7 @@ mail -s "Mensaje de prueba" bob@localhost < mensaje.txt
 - -b root@anglia.bryant: Envía una copia oculta del correo a root@anglia.bryant
 
 ## Mail enviado
-![MailEnviado]()
+![MailEnviado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/06-Linux/Correo%20enviado.png)
 
 
 
@@ -28,7 +28,7 @@ su bob
 mail
 
 ## Podemos ver como bob tiene dos mails recibidos del viernes 31 de enero a las 9:01 y 9:03 por David Lopez Nunez, ambos con el mismo asunto
-![MailsRecibidos]()
+![MailsRecibidos](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/06-Linux/Verificaci%C3%B3n%20correos.png)
 
 
 
@@ -50,7 +50,7 @@ d numeroMensaje
 s numeroMensaje nombreArchivo
 
 ### Podemos ver el mensaje tras ejecutar r numeroMensjae y como después al ejecutar d numeroMensaje pone que tengo 0 mails
-![6.3.1]()
+![6.3.1](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/06-Linux/6.3.1.png)
 
 
 
@@ -79,7 +79,7 @@ Mail usando Telnet.
 QUIT
 
 ### Resultado
-![6.3.3]()
+![6.3.3](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/06-Linux/Mail%20con%20telnet.png)
 
 
 
