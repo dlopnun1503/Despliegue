@@ -17,7 +17,7 @@ Cuando se realizan cambios en el archivo de configuración de Apache, el servido
 Se identificará el PPID en la columna correspondiente al proceso padre de Apache.
 
 ## Comando ejecutado
-![comandoEjecutado]()
+![comandoEjecutado](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/07-PHP/Ejecucion%20comando%207.2.png)
 
 
 
@@ -31,18 +31,18 @@ Ejecutamos ls -l index.html
 Se mostrará la información de permisos, usuario y grupo propietario.
 
 ## ls -l index.html
-![comandoEjecutado2]()
+![comandoEjecutado2](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/07-PHP/ls%20-l%20index.html.png)
 
 ## 7.3 Creación del archivo test.html y dibujo de la vista esperada
 Creamos test.html
 En un navegador, se espera ver un título "NSE Apache Lab", un encabezado y un párrafo con "En construcción!".
 
 ## Contenido añadido al fichero
-![comandoFichero]()
+![comandoFichero](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/07-PHP/ContenidoFichero.png)
 
 
 
-# 7.4 Visualizando archivos HTML en terminal
+# 7.4 Viewing HTML files using a terminalinterface
 
 ## 7.4.1 Diferencia entre CLI y GUI
 - CLI es una interfaz basada en texto donde se ejecutan comandos.
@@ -55,7 +55,7 @@ Es la dirección de loopback usada para acceder al propio sistema local.
 Ejecutamos lynx 127.0.0.1/test.html
 
 ## Visualización
-![Visualizacion]()
+![Visualizacion](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/07-PHP/7.4.3.png)
 
 ## 7.4.4 Visualización desde la máquina host
 Obtener la IP de la máquina virtual con ifconfig o ip a
@@ -63,7 +63,7 @@ Acceder desde un navegador en Windows a http://10.0.2.15/test.html
 
 
 
-# 7.5 Creando y visualizando archivos PHP
+# 7.5 Creating and viewing PHP files using a terminal interface
 
 ## 7.5.1 Función de phpinfo();
 Muestra información detallada sobre la configuración de PHP y Apache.
@@ -73,11 +73,11 @@ Creamos un archivo nse.php
 Ejecutamos lynx 127.0.0.1/nse.php para verlo
 
 ## Visualización
-![Visualizacion2]()
+![Visualizacion2](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/07-PHP/7.5.2.png)
 
 
 
-# 7.6 Explorando y editando el archivo hosts
+# 7.6  Exploring and adding an entry to the hosts file
 
 ## 7.6.1 Edición del archivo /etc/hosts
 Abrimos /etc/hosts.
@@ -85,3 +85,6 @@ Agregamos la línea 127.0.0.1 www.example.com antes de # End of hosts.
 
 ## 7.6.2 Verificación de la configuración
 Ejecutamos lynx www.example.com
+
+## Visualización
+![Visualizacion3](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/07-PHP/7.6.png)
