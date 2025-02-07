@@ -88,3 +88,51 @@ Ejecutamos lynx www.example.com
 
 ## Visualización
 ![Visualizacion3](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/07-PHP/7.6.png)
+
+
+
+# 7.7 Optional exercises
+
+## 7.7.1 Crear un archivo index.php y determinar qué archivo se carga
+Creamos un archivo index.php en el mismo directorio que test.html y nse.php, con el siguiente código PHP:
+<?php
+echo "<head><title>PHP test</title></head>\n";
+echo "Current PHP version: " . phpversion();
+?>
+Cuando ejecutemos lynx 127.0.0.1 en la terminal, se cargará index.html por defecto. Esto sucede porque Apache prioriza servir archivos .html sobre los archivos .php, si está configurado de esta manera.
+
+## ¿Cómo cambiar este comportamiento?
+Para que se cargue index.php en lugar de index.html, podemos cambiar la configuración de DirectoryIndex en el archivo httpd.conf de Apache:
+1. Abre el archivo httpd.conf
+2. Busca la directiva DirectoryIndex
+3. Modifica la línea que aparece para incluir index.php primero
+4. Guarda los cambios y reinicia Apache para que la configuración tenga efecto.
+   
+
+## 7.7.2 Protección con contraseña de un directorio
+### A. Crear el archivo de contraseñas
+Para proteger con contraseña el directorio DocumentRoot, primero debemos crear un archivo que contenga los usuarios y contraseñas. Usamos el comando htpasswd para hacerlo.
+Ejecutamos htpasswd -c /var/www/.htpasswd user
+Esto creará un archivo .htpasswd en el directorio /var/www/ con el usuario user
+
+### B.  Configurar la protección en httpd.conf
+Para proteger el directorio DocumentRoot usando autenticación básica, abrimos el archivo httpd.conf y agrega la configuración adecuada.
+1. Abrimos el archivo httpd.conf
+2. Buscamos la sección que contiene la directiva y añadimos las siguientes líneas justo encima de la etiqueta </Directory>:
+    - Order allow,deny
+    - Allow from all
+    
+    - AuthType Basic
+    - AuthName "Authorization required"
+    - AuthUserFile /var/www/.htpasswd
+    - Require valid-user
+    
+    - Order allow, deny
+    - Allow from all
+3. Guarda los cambios y reinicia Apache
+
+
+### C. Verifica la protección con lynx
+Ejecutamos lynx 127.0.0.1
+
+   
