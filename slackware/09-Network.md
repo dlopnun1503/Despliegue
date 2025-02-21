@@ -1,7 +1,7 @@
 # Actividad 9.1
 
 ## Creamos el script ping.sh y escribimos el siguiente código
-![Codigo]()
+![Codigo](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/09-Network/Codigo.png)
 
 ## Este código hace lo siguiete: 
 - Se utiliza un bucle for para iterar a través de las direcciones IP desde 192.168.0.1 hasta 192.168.0.25.
@@ -12,7 +12,7 @@
 ## Le damos permisos con chmod +x ping.sh
 
 ## Lo ejecutamos con ./ping.sh
-![ejecucion]()
+![ejecucion](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/09-Network/Ejecucion.png)
 
 
 
@@ -21,14 +21,14 @@
 ## ¿Cuántos intentos de inicio de sesión (exitosos y fallidos) ocurrieron en las últimas 48 horas?
 Con el comando last vemos información sobre los inicios de sesión, que en las últimas 48 horas han sido dos el dia 21 de febrero.ç
 Para ver los intentos fallidos utilizamos lastb, en mi caso solo aparece uno del día 7 de febrero.
-![last]()
-![lastb]()
+![last](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/09-Network/last.png)
+![lastb](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/09-Network/lastb.png)
 
 ## ¿Cuántos reinicios del sistema ocurrieron en las últimas 48 horas?
 Con el comando last reboot vemos cuántos reinicios de sesión se han realizado, el último reinicio fue el 21 de febrero de 2025 a las 08:45 y aún está en ejecución.
 El reinicio anterior fue el 14 de febrero de 2025 a las 12:50.
 El siguiente reinicio antes de ese fue el 7 de febrero de 2025 a las 08:35.
-![lastreboot]()
+![lastreboot](https://raw.githubusercontent.com/dlopnun1503/Despliegue/refs/heads/master/Capturas%20slackware/09-Network/lastreboot.png)
 
 
 
